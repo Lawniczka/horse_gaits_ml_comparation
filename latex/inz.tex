@@ -1,0 +1,50 @@
+% !TEX encoding = UTF-8 Unicode
+% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape] 
+% !TEX root = inz.tex
+
+\documentclass[12pt, twoside]{book}
+\input{latex-settings.tex}
+
+\frontmatter
+\begin{document}
+
+\includepdf[pages={1}]{title_page.pdf}          % STRONA TYTUŁOWA
+\doublepage
+
+\pagestyle{tableOfContentStyle}
+
+                                                % ABSTRACT
+\pagenumbering{Roman}
+\input{chapters/abstract.tex}
+\doublepage
+
+% Add table of contents
+\tableofcontents 
+\doublepage
+
+% Set page style 
+\pagestyle{custom}
+\mainmatter
+ 
+% Create chapters:
+%\input{chapters/introduction.tex}
+%\input{chapters/zakres.tex}
+%\input{chapters/chapter1/chapter1_main.tex}
+%\input{chapters/chapter2/chapter2_main}
+%\input{chapters/conclusions.tex}
+
+% Redefine plain for 1st bibliography page style
+\resetformatting
+\pagestyle{bibliographyStyle}
+\bibliographystyle{abbrv}
+\bibliography{bibliography}
+
+% Add list of figures and tables
+\pagestyle{custom}
+\newpage
+\pagestyle{ListofFiguresStyle}
+\listoffigures
+\newpage
+\pagestyle{ListofTablesStyle}
+\listoftables
+\end{document}

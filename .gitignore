@@ -1,0 +1,18 @@
+# Virtual environment
+venv/horse_gait_analysis_venv/__pycache__/.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook autosaves
+*.ipynb_checkpoints
+
+# Environment files
+.env
+output/learn/*

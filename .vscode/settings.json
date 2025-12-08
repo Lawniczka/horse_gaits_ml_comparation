@@ -1,0 +1,27 @@
+{
+    "python-envs.pythonProjects": [],
+    "python.defaultInterpreterPath": "horse_gait_analysis_venv/Scripts/python.exe",
+
+
+    "latex-workshop.latex.recipes": [
+    {
+        "name": "latexmk",
+        "tools": ["latexmk"]
+    }],
+
+    "latex-workshop.latex.tools": [
+    {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "-file-line-error",
+            "-pdf",
+            "-outdir=out",
+            "%DOC%"
+        ]
+    }],
+
+}
+
