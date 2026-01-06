@@ -3,12 +3,12 @@
 % !TEX root = inz.tex
 
 \documentclass[12pt, twoside]{book}
-\input{latex-settings.tex}
+\input{latex/latex-settings.tex}
 
 \frontmatter
 \begin{document}
 
-\includepdf[pages={1}]{title_page.pdf}          % STRONA TYTUŁOWA
+\includepdf[pages={1}]{latex/title_page.pdf}          % STRONA TYTUŁOWA
 \doublepage
 
 \pagestyle{tableOfContentStyle}
@@ -16,6 +16,7 @@
                                                 % ABSTRACT
 \pagenumbering{Roman}
 \input{chapters/abstract.tex}
+
 \doublepage
 
 % Add table of contents

@@ -1,6 +1,3 @@
-# Virtual environment
-venv/horse_gait_analysis_venv/__pycache__/.ipynb_checkpoints/
-
 # System files
 .DS_Store
 Thumbs.db
@@ -14,5 +11,16 @@ Thumbs.db
 *.ipynb_checkpoints
 
 # Environment files
-.env
+venv/
+.env/
+.venv/
+horse_gait_analysis_venv/
+video_process_venv/
+
+# Output directories
 output/learn/*
+
+# LaTeX build output
+latex/latex/
+latex/out/**
+!latex/out/inz.pdf
