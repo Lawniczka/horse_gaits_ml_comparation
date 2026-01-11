@@ -1,3 +1,6 @@
+dataset/learn
+dataset/horseactionrecognition
+
 # System files
 .DS_Store
 Thumbs.db
