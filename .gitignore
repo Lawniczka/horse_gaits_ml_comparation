@@ -1,5 +1,6 @@
-dataset/learn
+# Ignore dataset folders
 dataset/horseactionrecognition
+knowledge/dataset/horsevshuman
 
 # System files
 .DS_Store
@@ -17,8 +18,7 @@ Thumbs.db
 venv/
 .env/
 .venv/
-horse_gait_analysis_venv/
-video_process_venv/
+classic_learning/
 
 # Output directories
 output/learn/*
