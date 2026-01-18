@@ -25,3 +25,5 @@ These gait categories correspond to biomechanically meaningful motion patterns c
 ## Dataset Structure
 
 *(Work In Progress)*
+
+crop_canterpic_noback - centered, same size, 300x300 px, very clean view from the side, occasionally front

@@ -1,6 +1,13 @@
 # Ignore dataset folders
-dataset/horseactionrecognition
-knowledge/dataset/horsevshuman
+dataset/*
+!dataset/README.md
+
+!dataset/horseactionrecognition
+dataset/horseactionrecognition/*
+!knowledge/dataset/horsevshuman
+knowledge/dataset/horsevshuman/*
+
+knowledge/dataset/preprocessed/*
 
 # System files
 .DS_Store
@@ -21,9 +28,11 @@ venv/
 classic_learning/
 
 # Output directories
-output/learn/*
+knowledge/output/*
 
 # LaTeX build output
 latex/latex/
 latex/out/**
 !latex/out/inz.pdf
+
+latex/*
