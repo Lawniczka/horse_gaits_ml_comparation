@@ -9,6 +9,9 @@ knowledge/dataset/horsevshuman/*
 
 knowledge/dataset/preprocessed/*
 
+# Ignore results folders
+results/*
+
 # System files
 .DS_Store
 Thumbs.db
