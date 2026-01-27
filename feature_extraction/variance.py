@@ -5,7 +5,7 @@ import cv2
 dir = "dataset/preprocessed/edges/"
 labels = ["canter", "trot", "walk"]
 
-src = "dataset/variance_big_256/"
+src = "dataset/variance256/"
 
 T = 32
 W = 256

@@ -1,9 +1,9 @@
 import os
 import numpy as np
 
-src = "dataset/variance_big_256/"
+src = "dataset/variance256/"
 labels = ["canter", "trot", "walk"]
-dst = "dataset/variance_big_256/"
+dst = "dataset/variance256_aug/"
 
 for label in labels:
     src_dir = os.path.join(src, label)
