@@ -39,3 +39,7 @@ latex/out/**
 !latex/out/inz.pdf
 
 latex/*
+latex2/*
+document/*
+document/
+.vscode/*
